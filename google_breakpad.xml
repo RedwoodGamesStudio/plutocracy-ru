@@ -1,0 +1,16 @@
+<?xml version="1.1" encoding="UTF-8" ?> 
+<google_breakpad>
+
+	<crash_dialog>
+		<text id="window_title" value="Plutocracy Crash Reporter"/>
+		<text id="apologies" value="Приносим свои извинения\n\n"/>
+		<text id="error_desc" value="В процессе игры Plutocracy возникла внутренняя ошибка, что привело к аварийному завершению работы.\n"/>
+		<text id="send_error_msg" value="Чтобы помочь нам в выявлении и устранении этой проблемы, Вы можете отправить нам сообщение об ошибке.\n\n\n"/>
+		<text id="send_to_redwood" value="Сообщить о падении в Redwood, чтобы они могли это исправить"/>
+		<text id="comment" value="Добавить комментарий (комментарии публично доступны)"/>
+		<text id="add_client_email" value="Разрешить Redwood связаться со мной по поводу этого сообщения"/>
+		<text id="info_about_send" value="Ваше сообщение будет отправлено перед выходом"/>
+		<text id="close_game" value="Выйти из Plutocracy"/>
+	</crash_dialog>
+
+</google_breakpad>

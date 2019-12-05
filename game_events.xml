@@ -1,0 +1,232 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE game_events [
+<!ELEMENT game_events (#PCDATA)>
+]>
+<!--></!-->
+
+<!-->Здесь весь текст из xml/game_events.xml</!-->
+<game_events>
+
+    <!-->
+    Идентификаторы событий
+    - id: Идентификатор, должен быть уникальным
+    - name: Название группы событий
+    </!-->
+    <event_type>
+        <text id="1" value="Случайные события"/>
+        <text id="2" value="События раута"/>
+        <text id="3" value="События компании"/>
+        <text id="4" value="События с помощниками"/>
+        <text id="5" value="События повышения лояльности"/>
+        <text id="6" value="Прочие события"/>
+        <text id="7" value="События применения агента"/>
+    </event_type>
+    <!-->
+    Директорские события
+        - id: Идентификатор, должен быть уникальным;
+        - type_id: тип, к которому относится события. Директорские события делятся по типам компаний - нефтедобыча, нефтепереработка, и.т.д.
+        - name: Заголовок события (используется для новостей)
+        - description: Описание события (текст отображается в попапе)
+    </!-->
+        <event>
+                <text id="20_header" value="Отправить пожертвование"/>
+                <text id="20_description" value="Какое пожертвование Вы хотите отправить?"/>
+
+                <text id="21_header" value="Приглашение в гости"/>
+                <text id="21_description" value="%1%2 пригласил вас в гости, для того, чтобы пообщаться с вами в более дружественной обстановке."/>
+
+                <text id="22_header" value="Скачки"/>
+                <text id="22_description" value="%1Вы получили приглашение от %2 посетить скачки. Это отличный шанс завести новые связи или улучшить старые."/>
+
+                <!-->
+                %1 - служебная информация, не менять.
+                %2 - <Имя Фамилия> помощника.
+                %3 - запрашиваемая сумма повышения зарплаты
+                %4 - итоговая зарплата (текущая + прибавка)
+                %5 - текущая лояльность
+                </-->
+                <text id="40_header" value="Просьба повышения зарплаты"/>
+                <text id="40_description" value="%1%2 просит повысить ему зарплату на $%3\nдо $%4 в квартал. Текущая лояльность %5%"/>
+
+                <!--> События лояльности </-->
+                <text id="50_header" value="Финансирование кампании"/>
+                <text id="50_description" value="%1%2 рассчитывает баллотироваться на новый срок, и уже сейчас собирает деньги спонсоров на финансирование своей избирательной кампании."/>
+
+                <text id="51_header" value="Устроить родственника в компанию"/>
+                <text id="51_description" value="Было бы замечательно, если бы вы пристроили моего %1, в совет директоров вашей компании %2. Я буду вам очень признателен, и возможно, пригожусь в будущем..."/>
+
+                <text id="52_header" value="Стать акционером в компании"/>
+                <text id="52_description" value="Я хочу купить акции компании %2 из штата %3. Если поможете мне, моя благодарность не заставит себя ждать!"/>
+
+                <text id="53_header" value="Амбиция"/>
+                <text id="53_description" value="%1Я хотел бы занять пост %2 на ближайших выборах %3... Мой действующий соперник на это место - %4. Если вы мне поможете, возглавив и профинансировав мою избирательную кампанию, то я не останусь в долгу, заняв этот амбициозный пост! И вы сможете рассчитывать на мое влияние, и расположение к вам."/>
+
+                <text id="54_header" value="Амбиция"/>
+                <text id="54_description" value="%1Я хотел бы занять пост %2 на ближайших выборах %3... Мой действующий соперник на это место - %4. Если вы мне поможете, возглавив и профинансировав мою избирательную кампанию, то я не останусь в долгу, заняв этот амбициозный пост! И вы сможете рассчитывать на мое влияние, и расположение к вам."/>
+
+                <text id="55_header" value="Амбиция"/>
+                <text id="55_description" value="%1%2 хотел бы приобрести что нибудь для своей коллекции &quot;%3&quot;, и готов щедро заплатить по рыночной цене за это."/>
+
+                <text id="56_header" value="Амбиция"/>
+                <text id="56_description" value="%1%2 хотел бы продать что-то из коллекции &quot;%3&quot;, и согласен на рыночную цену, либо выше!"/>
+
+                <text id="57_header" value="Амбиция"/>
+                <text id="57_description" value="%1%2 мечтает стать директором в какой-нибудь компании. Сможете ли вы ему помочь?"/>
+
+                <text id="58_header" value="Амбиция"/>
+                <text id="58_description" value="%1%2 хотел бы стать помощником такого важного человека, как вы. Что вы думаете на этот счет?"/>
+
+                <text id="59_header" value="Амбиция"/>
+                <text id="59_description" value="%1%2 всю жизнь хотел попасть в совет директоров какой-нибудь компании. Сможете ли вы помочь ему в этом?"/>
+
+                <text id="60_header" value="Продать акции"/>
+                <text id="60_description" value="Я хочу продать акции компании %2 из штата %3. Если поможете мне, моя благодарность не заставит себя ждать!"/>
+
+</event>
+
+    <!-->
+    Кнопки события
+        - event_id: Идентификатор события, к которому относятся кнопки;
+        - button_id: Идентификатор кнопки, должны быть уникальны для одного event_id;
+        - button_header: Заголовок кнопки;
+        - button_text: Текст кнопки;
+    </!-->
+        <event_button>
+                <!-->
+                Благотворительный вечер
+                </!-->
+                <text id="button_20_1_header" value="Крупное пожертвование"/>
+                <text id="button_20_1_text" value="Делая пожертвование в размере $%1, вы создаете для себя возможности завести новых друзей, а иногда это помогает даже изменить свою жизнь!"/>
+                <text id="button_20_1_hover_text" value="Лояльность %1:&#160;+%2%\nВлияние: +%3"/>
+                <text id="disabled_button_20_1_hover_text" value=""/>
+                <text id="button_20_2_header" value="Среднее пожертвование"/>
+                <text id="button_20_2_text" value="Я думаю, нет проще способа заслужить к себе уважение, чем сделать пожертвование на сумму $%1"/>
+                <text id="button_20_2_hover_text" value="Лояльность %1:&#160;+%2%\nВлияние: +%3"/>
+                <text id="disabled_button_20_2_hover_text" value=""/>
+                <text id="button_20_3_header" value="Не делать пожертвований"/>
+                <text id="button_20_3_text" value="Я не думаю, что в этом есть какой-то смысл!"/>
+                <text id="button_20_3_hover_text" value="Лояльность гостей вечера:&#160;%1%\nВлияние: %2"/>
+                <text id="disabled_button_20_3_hover_text" value=""/>
+
+                <text id="button_21_1_header" value="Явиться с дорогим подарком"/>
+                <text id="button_21_1_text" value="Дорогой подарок невольно обязывает получателя к ответному жесту. Этим даритель манипулирует человеком,вынуждая делать его то, что ему нужно."/>
+                <text id="button_21_1_hover_text" value="Деньги: -$%1\nЛояльность увеличится на&#160;+%2%"/>
+                <text id="disabled_button_21_1_hover_text" value=""/>
+                <text id="button_21_2_header" value="Прийти с символическим подарком"/>
+                <text id="button_21_2_text" value="Главное это внимание к человеку, поэтому стоимость подарка неважна."/>
+                <text id="button_21_2_hover_text" value="Деньги: -$%1\nЛояльность увеличится на&#160;+%2%"/>
+                <text id="disabled_button_21_2_hover_text" value=""/>
+                <text id="button_21_3_header" value="Заявиться без подарка"/>
+                <text id="button_21_3_text" value="Это не настолько уж и близкий мне человек, чтобы дарить подарки"/>
+                <text id="button_21_3_hover_text" value="Лояльность увеличится на&#160;+%1%"/>
+                <text id="disabled_button_21_3_hover_text" value=""/>
+
+                <text id="button_22_1_header" value="Ставка на аутсайдера"/>
+                <text id="button_22_1_text" value="Ставка - %1 к 1. При выигрыше, лояльность изменится на +%2%"/>
+                <text id="button_22_1_hover_text" value="Ставка на аутсайдера может показаться безумной идеей, но если использовать верную стратегию, можно получать стабильную прибыль."/>
+                <text id="disabled_button_22_1_hover_text" value=""/>
+                <text id="button_22_2_header" value="Ставка на фаворита"/>
+                <text id="button_22_2_text" value="Ставка - %1 к 1. При выигрыше, лояльность изменится на +%2%"/>
+                <text id="button_22_2_hover_text" value="В большинстве случаев я буду побеждать. Однако, размер выигрыша всегда будет небольшой."/>
+                <text id="disabled_button_22_2_hover_text" value=""/>
+                <text id="button_22_3_header" value="Ставка на свою лошадь"/>
+                <text id="button_22_3_text" value="Ставка - %1 к 1. При выигрыше, лояльность изменится на +%2%"/>
+                <text id="button_22_3_hover_text" value="Думаю, это самый лучший способ заработать деньги, потому что я знаю, на что способен мой скакун."/>
+                <text id="disabled_button_22_3_hover_text" value=""/>
+
+                <text id="button_40_1_header" value="Повысить зарплату"/>
+                <text id="button_40_1_text" value="Увеличить ЗП на $%1, лояльность увеличится на&#160;%2%"/>
+                <text id="button_40_1_hover_text" value=""/>
+                <text id="disabled_button_40_1_hover_text" value=""/>
+                <text id="button_40_2_header" value="Повысить наполовину"/>
+                <text id="button_40_2_text" value="Увеличить ЗП на&#160;$%1, лояльность увеличится на&#160;%2%"/>
+                <text id="button_40_2_hover_text" value=""/>
+                <text id="disabled_button_40_2_hover_text" value=""/>
+                <text id="button_40_3_header" value="Отказать"/>
+                <text id="button_40_3_text" value="Лояльность уменьшится на&#160;%1%"/>
+                <text id="button_40_3_hover_text" value=""/>
+                <text id="disabled_button_40_3_hover_text" value=""/>
+
+                <text id="button_50_1_header" value="Спонсировать"/>
+                <text id="button_50_1_text" value="Взнос в размере $%1"/>
+                <text id="button_50_1_hover_text" value="Лояльность повысится на %1%"/>
+                <text id="disabled_button_50_1_hover_text" value=""/>
+                <text id="button_50_2_header" value="Подумать"/>
+                <text id="button_50_2_text" value="Не стоит принимать подобные решения поспешно"/>
+                <text id="button_50_2_hover_text" value=""/>
+                <text id="disabled_button_50_2_hover_text" value=""/>
+
+                <text id="button_51_1_header" value="Согласиться"/>
+                <text id="button_51_1_text" value="У компании %1 вырастает показатель расходов - премии совету директоров. Расходы увеличатся на $%2"/>
+                <text id="button_51_1_hover_text" value=""/>
+                <text id="disabled_button_51_1_hover_text" value=""/>
+                <text id="button_51_2_header" value="Подумать"/>
+                <text id="button_51_2_text" value="Не стоит принимать подобные решения поспешно"/>
+                <text id="button_51_2_hover_text" value=""/>
+                <text id="disabled_button_51_2_hover_text" value=""/>
+
+                <text id="button_52_1_header" value="Согласиться"/>
+                <text id="button_52_1_text" value=""/>
+                <text id="button_52_1_hover_text" value="Спишется %1 акций на сумму $%2\nЛояльность повысится на %3%"/>
+                <text id="disabled_button_52_1_hover_text" value=""/>
+                <text id="button_52_2_header" value="Подумать"/>
+                <text id="button_52_2_text" value=""/>
+                <text id="button_52_2_hover_text" value="Не стоит принимать подобные решения поспешно"/>
+                <text id="disabled_button_52_2_hover_text" value=""/>
+
+                <text id="button_53_1_header" value="Согласиться"/>
+                <text id="button_53_1_text" value=""/>
+                <text id="button_53_1_hover_text" value="Спишется %1 влияния\nЛояльность повысится на&#160;%2%"/>
+                <text id="disabled_button_53_1_hover_text" value="Не хватает влияния!&lt;br/&gt;Требуется&#160;%1&#160;%2"/>
+                <text id="button_53_2_header" value="Отказаться"/>
+                <text id="button_53_2_text" value=""/>
+                <text id="button_53_2_hover_text" value="Не стоит принимать подобные решения поспешно"/>
+                <text id="disabled_button_53_2_hover_text" value=""/>
+
+                <text id="button_54_1_header" value="Согласиться"/>
+                <text id="button_54_1_text" value=""/>
+                <text id="button_54_1_hover_text" value="Спишется %1 влияния\nЛояльность повысится на&#160;%2%"/>
+                <text id="disabled_button_54_1_hover_text" value="Не хватает влияния!&lt;br/&gt;Требуется&#160;%1&#160;%2"/>
+                <text id="button_54_2_header" value="Отказаться"/>
+                <text id="button_54_2_text" value=""/>
+                <text id="button_54_2_hover_text" value="Не стоит принимать подобные решения поспешно"/>
+                <text id="disabled_button_54_2_hover_text" value=""/>
+
+                <text id="button_55_1_header" value="Согласиться"/>
+                <text id="button_55_1_text" value=""/>
+                <text id="button_55_1_hover_text" value=""/>
+                <text id="disabled_button_55_1_hover_text" value=""/>
+                <text id="button_55_2_header" value="Отказаться"/>
+                <text id="button_55_2_text" value=""/>
+                <text id="button_55_2_hover_text" value=""/>
+                <text id="disabled_button_55_2_hover_text" value=""/>
+
+                <text id="button_56_1_header" value="Согласиться"/>
+                <text id="button_56_1_text" value=""/>
+                <text id="button_56_1_hover_text" value=""/>
+                <text id="disabled_button_56_1_hover_text" value=""/>
+                <text id="button_56_2_header" value="Отказаться"/>
+                <text id="button_56_2_text" value=""/>
+                <text id="button_56_2_hover_text" value=""/>
+                <text id="disabled_button_56_2_hover_text" value=""/>
+
+
+                <text id="button_57_1_header" value="Согласиться"/>
+                <text id="button_57_1_text" value=""/>
+                <text id="button_57_1_hover_text" value=""/>
+                <text id="disabled_button_57_1_hover_text" value=""/>
+                <text id="button_57_2_header" value="Отказаться"/>
+                <text id="button_57_2_text" value=""/>
+                <text id="button_57_2_hover_text" value=""/>
+                <text id="disabled_button_57_2_hover_text" value=""/>
+
+                <text id="button_60_1_header" value="Согласиться"/>
+                <text id="button_60_1_text" value=""/>
+                <text id="button_60_1_hover_text" value=""/>
+                <text id="disabled_button_60_1_hover_text" value=""/>
+                <text id="button_60_2_header" value="Подумать"/>
+                <text id="button_60_2_text" value=""/>
+                <text id="button_60_2_hover_text" value=""/>
+                <text id="disabled_button_60_2_hover_text" value=""/>
+</event_button>
+</game_events>

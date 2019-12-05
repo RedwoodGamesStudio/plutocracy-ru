@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE player_achievements_description [
+  <!ELEMENT player_achievements_description (#PCDATA)>
+]>
+
+<player_achievements_description>
+
+	<names>
+                <text id="individual" value="Единоличный владелец"/>
+                <text id="local_monopolist" value="Локальный монополист"/>
+                <text id="us_monopolist" value="Монополист США"/>
+                <text id="world_monopolist" value="Мировой монополист"/>
+                <text id="great_raider" value="Великий рейдер"/>
+                <text id="plutocrat" value="Плутократ"/>
+                <text id="combinator" value="Комбинатор"/>
+                <text id="assets_rank" value="ТОП рейтинга по богатству"/>
+                <text id="influence_rank" value="ТОП рейтинга по влиянию"/>
+                <text id="cashflow_generator" value="Генератор кэшфлоу"/>
+
+                <text id="regional_figure" value="Региональная фигура"/>
+                <text id="country_figure" value="Фигура страны"/>
+                <text id="local_lobbyist" value="Местный Лоббист"/>
+                <text id="political_heavyweight" value="Политический тяжеловес"/>
+                <text id="corrupting_power" value="Развращающий власть"/>
+                <text id="themis_master" value="Хозяин Фемиды"/>
+                <text id="walk_in_all_doors" value="Вхожий во все двери"/>
+                <text id="shadow_ruler" value="Теневой правитель"/>
+
+                <text id="collector" value="Коллекционер"/>
+                <text id="artificial_manipulator" value="Искусный манипулятор"/>
+                <text id="diplomat_of_devil" value="Дипломат Дьявола"/>
+                <text id="bloody_prince" value="Исполнитель желаний"/>
+                <text id="master_of_secrets" value="Повелитель тайн"/>
+                <text id="techno-boom" value="Технобум"/>
+	</names>
+	
+<short_descriptions>
+        <text id="individual" value="%1% акций"/>
+        <text id="local_monopolist" value="%1% доли рынка"/>
+        <text id="us_monopolist" value="%1% доли рынка"/>
+        <text id="world_monopolist" value="%1% доли рынка"/>
+        <text id="great_raider" value="%1 компания;%1 компаний;%1 компаний"/>
+        <text id="plutocrat" value="Состояние $%1"/>
+        <text id="combinator" value="%1 холдинг;%1 холдингов;%1 холдингов"/>
+        <text id="assets_rank" value="ТОП-%1"/>
+        <text id="influence_rank" value="ТОП-%1"/>
+        <text id="cashflow_generator" value="%1"/>
+
+        <text id="regional_figure" value="%1% влияния"/>
+        <text id="country_figure" value="%1% влияния"/>
+        <text id="local_lobbyist" value="%1 закон;%1 законов;%1 законов"/>
+        <text id="political_heavyweight" value="%1 закон;%1 законов;%1 законов"/>
+        <text id="corrupting_power" value="%1 сделка;%1 сделок;%1 сделок"/>
+        <text id="themis_master" value="%1 решение суда;%1 решений суда;%1 решений суда"/>
+        <text id="walk_in_all_doors" value="%1 марионетка;%1 марионеток;%1 марионеток"/>
+        <text id="shadow_ruler" value=""/>
+
+        <text id="collector" value="%1 предмета;%1 предметов;%1 предметов"/>
+        <text id="artificial_manipulator" value="%1 помощник;%1 помощников;%1 помощников"/>
+        <text id="diplomat_of_devil" value="%1 переговоров"/>
+        <text id="bloody_prince" value="%1 амбиций;%1 амбиций;%1 амбиций"/>
+        <text id="master_of_secrets" value="%1 компроматов"/>
+        <text id="techno-boom" value="%1 технологии;%1 технологий;%1 технологий"/>
+</short_descriptions>
+
+
+	<descriptions>
+                <text id="individual" value="Купить %1% акций компании."/>
+                <text id="local_monopolist" value="Захватить %1% доли рынка в одном штате."/>
+                <text id="us_monopolist" value="Захватить %1% доли рынка в США."/>
+                <text id="world_monopolist" value="Захватить %1% доли рынка в мире."/>
+                <text id="great_raider" value="Захватите контроль над %1 компаниями любого типа."/>
+                <text id="plutocrat" value="Сколотите состояние в размере $%1."/>
+                <text id="combinator" value="Построить вертикальный холдинг %1."/>
+                <text id="assets_rank" value="Попасть в рейтинг ТОП-%1"/>
+                <text id="influence_rank" value="Попасть в рейтинг ТОП-%1"/>
+                <text id="cashflow_generator" value="Достичь регулярного денежного потока за квартал $ %1"/>
+
+                <text id="regional_figure" value="Получить %1% влияния в штате."/>
+                <text id="country_figure" value="Получить %1% влияния в стране."/>
+                <text id="local_lobbyist" value="Проллобировать %1 локальный закон."/>
+                <text id="political_heavyweight" value="Проллобировать %1 федеральный закон."/>
+                <text id="corrupting_power" value="Провести %1 коррупционных сделок."/>
+                <text id="themis_master" value="Отменить %1 решений суда."/>
+                <text id="walk_in_all_doors" value="Получите %1 марионетку среди чиновников и политиков. В зачет марионеток идут только политики, либо чиновники.;Получите %1 марионеток среди чиновников и политиков. В зачет марионеток идут только политики, либо чиновники.;Получите %1 марионеток среди чиновников и политиков. В зачет марионеток идут только политики, либо чиновники."/>
+                <text id="shadow_ruler" value="Поставить марионеточного правителя в США."/>
+
+                <text id="collector" value="Собрать %1 предмета из коллекции."/>
+                <text id="artificial_manipulator" value="Нанять %1 помощников."/>
+                <text id="diplomat_of_devil" value="Провести %1 успешных переговоров."/>
+                <text id="bloody_prince" value="Выполнить %1 амбиций персонажей."/>
+                <text id="master_of_secrets" value="Получить %1 компроматов."/>
+                <text id="techno-boom" value="Собрать как можно больше технологий в одном типе компаний."/>
+	</descriptions>
+
+<descriptions_complete>
+        <text id="individual" value="Вы купили %1% акций компании."/>
+        <text id="local_monopolist" value="Вы захватили %1% доли рынка в одном штате."/>
+        <text id="us_monopolist" value="Вы захватили %1% доли рынка в США."/>
+        <text id="world_monopolist" value="Вы захватили %1% доли рынка в мире."/>
+        <text id="great_raider" value="Захвачен контроль над %1 компаниями."/>
+        <text id="plutocrat" value="Заработано состояние в размере $%1."/>
+        <text id="combinator" value="Вы построили вертикальный холдинг %1."/>
+        <text id="assets_rank" value="Вы попали в рейтинг ТОП-%1."/>
+        <text id="influence_rank" value="Вы попали в рейтинг ТОП-%1."/>
+        <text id="cashflow_generator" value="Вы добились регулярного денежного потока за квартал $ %1."/>
+
+        <text id="regional_figure" value="Вы получили %1% влияния в штате."/>
+        <text id="country_figure" value="Вы получили  %1% влияния в стране."/>
+        <text id="local_lobbyist" value="Вы лоббировали %1 локальный закон."/>
+        <text id="political_heavyweight" value="Вы лоббировали %1 федеральный закон."/>
+        <text id="corrupting_power" value="Вы провели %1 коррупционных сделок."/>
+        <text id="themis_master" value="Вы отменили %1 решений суда."/>
+        <text id="walk_in_all_doors" value="Вы получили %1 марионеток среди политиков и чиновников."/>
+        <text id="shadow_ruler" value="Вы поставили марионеточного правителя в стране."/>
+
+        <text id="collector" value="Вы собрали %1 предмета из коллекции."/>
+        <text id="artificial_manipulator" value="Вы наняли %1 помощников."/>
+        <text id="diplomat_of_devil" value="Вы провели %1 успешных переговоров."/>
+        <text id="bloody_prince" value="Вы выполнили %1 амбиций персонажей."/>
+        <text id="master_of_secrets" value="Вы получили %1 компроматов."/>
+        <text id="techno-boom" value="Вы собрали %1 технологии в одном типе компаний;Вы собрали %1 технологий в одном типе компаний;Вы собрали %1 технологий в одном типе компаний."/>
+</descriptions_complete>
+
+<progress_text>
+        <text id="individual" value="Купленная доля акций:"/>
+        <text id="local_monopolist" value="Доля рынка в штате:"/>
+        <text id="us_monopolist" value="Доля рынка в США:"/>
+        <text id="world_monopolist" value="Доля рынка в мире:"/>
+        <text id="plutocrat" value="Состояние:"/>
+        <text id="great_raider" value="Контроль над компаниями:"/>
+        <text id="combinator" value="Вертикальные холдинги:"/>
+        <text id="assets_rank" value="Текущее место:"/>
+        <text id="influence_rank" value="Текущее место:"/>
+        <text id="cashflow_generator" value="Денежный поток:"/>
+
+
+        <text id="regional_figure" value="Процент влияния в штате:"/>
+        <text id="country_figure" value="Процент влияния в стране:"/>
+        <text id="local_lobbyist" value="Лобби местных законов:"/>
+        <text id="political_heavyweight" value="Лобби федеральных законов:"/>
+        <text id="corrupting_power" value="Коррупционных сделок"/>
+        <text id="themis_master" value="Отменено решений суда:"/>
+        <text id="walk_in_all_doors" value="Политические марионетки:"/>
+        <text id="shadow_ruler" value="Правитель-марионетка:"/>
+
+        <text id="collector" value="Собрано предметов:"/>
+        <text id="artificial_manipulator" value="Нанято помощников:"/>
+        <text id="diplomat_of_devil" value="Проведено переговоров:"/>
+        <text id="bloody_prince" value="Выполнено амбиций:"/>
+        <text id="master_of_secrets" value="Получено компроматов:"/>
+        <text id="techno-boom" value="Собрано технологий:"/>
+</progress_text>
+	
+</player_achievements_description>

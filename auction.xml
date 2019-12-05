@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE auction [<!ELEMENT auction (#PCDATA)>]>
+<auction>
+
+	<!-->Здесь весь текст из xml/auction.xml</!-->
+	
+	<!-->
+	Сохранено на всякий случай
+	<common> 
+		<text id="text_start" value="%NAME повысил ставку до %BID! раз!"/>
+		<text id="text_2" value="%BID два!"/>
+		<text id="text_3" value="%BID три! Последний шанс..."/>
+		<text id="text_win" value="Продано за %BID %NAME"/>
+	</common>
+	</!-->
+
+	<common> 
+		<text id="text_start" value="У меня есть ставка %BID!"/>
+		<text id="text_2" value="%BID раз!"/>
+		<text id="text_3" value="%BID два! Последний шанс..."/>
+		<text id="text_win" value="Продано за %BID %NAME"/>
+	</common>
+</auction>

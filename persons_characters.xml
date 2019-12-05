@@ -1,0 +1,267 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE ownerships [
+  <!ELEMENT agents (#PCDATA)>
+]>
+<persons_characters>
+
+	<categories>
+                <text id="0" value="Категория 0"/>
+                <text id="1" value="Категория 1"/>
+                <text id="2" value="Категория 2"/>
+                <text id="3" value="Категория 3"/>
+                <text id="4" value="Категория 4"/>
+                <text id="5" value="Категория 5"/>
+                <text id="6" value="Категория 6"/>
+                <text id="7" value="Категория 7"/>
+                <text id="3" value="Категория 8"/>
+                <text id="4" value="Категория 9"/>
+                <text id="5" value="Категория 10"/>
+                <text id="6" value="Категория 11"/>
+                <text id="7" value="Категория 12"/>
+	</categories>
+
+	<names>
+            <text id="crazy" value="Взбалмошный"/>
+            <text id="fussy" value="Суетливый"/>
+            <text id="proud" value="Гордый"/>
+            <text id="heavy" value="Тяжелый"/>
+            <text id="honest" value="Честный"/>
+            <text id="alcoholic" value="Алкоголик"/>
+
+            <text id="independent" value="Харизматичный"/>
+            <text id="dependent" value="Уступчивый"/>
+
+            <text id="aggressive" value="Буйный"/>
+            <text id="friendly" value="Спокойный"/>
+
+            <text id="mercantile" value="Меркантильный"/>
+            <text id="wasteful" value="Нерасчетливый"/>
+
+            <text id="lustful" value="Похотливый"/>
+            <text id="frigid" value="Фригидный"/>
+
+            <text id="thrifty" value="Бережливый"/>
+            <text id="spender" value="Транжира"/>
+
+            <text id="fearless" value="Бесстрашный"/>
+            <text id="shy" value="Пугливый"/>
+
+            <text id="careful" value="Осторожный"/>
+            <text id="careless" value="Неосторожный"/>
+
+            <text id="holyman" value="Святоша"/>
+            <text id="dark_past" value="Темное прошлое"/>
+
+            <text id="restrained" value="Сдержанный"/>
+            <text id="brawler" value="Скандалист"/>
+
+            <text id="believer" value="Верующий"/>
+            <text id="atheist" value="Атеист"/>
+
+
+				<!-->увлечения</!-->
+				<text id="horses" value="Лошади"/>
+				<text id="yachts" value="Яхты"/>
+				<text id="houses" value="Дома"/>
+				<text id="coins" value="Монеты"/>
+				<text id="cars" value="Машины"/>
+				<text id="pictures" value="Картины"/>
+				<text id="antiques" value="Антиквариат"/>
+				<text id="alco_tobacco" value="Алкоголь и табак"/>
+				<text id="trophies" value="Трофеи"/>
+				<text id="weapons" value="Оружие"/>
+	</names>
+
+	<descriptions>
+            <text id="crazy" value="Стартовый шанс и цена на переговорах всегда случайны."/>
+            <text id="fussy" value="На переговорах будет всего 1 раунд, вне зависимости от лояльности персонажа и развитых навыков."/>
+            <text id="proud" value="Не согласится стать марионеткой даже при шантаже с использованием компромата."/>
+            <text id="heavy" value="После переговоров персонаж недоступен в течении 100 дней."/>
+            <text id="honest" value="Невозможно коррумпировать, если занимает какой либо государственный пост, и не является марионеткой."/>
+            <text id="alcoholic" value="20% вероятность, что персонаж не придет на встречу."/>
+
+            <text id="independent" value="В переговорах уровень дипломатии персонажа будет влиять в 2 раза сильнее на исход сделки. Сделку заключить труднее."/>
+            <text id="dependent" value="Убедить персонажа заключить сделку будет легче, из-за снижения в 2 раза уровня его дипломатии в переговорах."/>
+
+            <text id="aggressive" value="В случае неудачи на переговорах лояльность упадет в 3 раза сильнее."/>
+            <text id="friendly" value="Лояльность не упадет после неудачных переговоров."/>
+
+            <text id="mercantile" value="Способность в переговорах влиять на цену в 2 раза сильнее."/>
+            <text id="wasteful" value="Способность в переговорах влиять на цену в 2 раза слабее."/>
+
+            <text id="lustful" value="+20% к успеху применения агента “Куртизанка”."/>
+            <text id="frigid" value="-20% к успеху применения агента “Куртизанка”."/>
+
+            <text id="thrifty" value="-20% к успеху применения агента “Разбойник”."/>
+            <text id="spender" value="+20% к успеху применения агента “Разбойник”."/>
+
+            <text id="fearless" value="-20% к успеху применения агента “Громила”."/>
+            <text id="shy" value="+20% к успеху применения агента “Громила”."/>
+
+            <text id="careful" value="-20% к успеху применения агента “Киллер”."/>
+            <text id="careless" value="+20% к успеху применения агента “Киллер”."/>
+
+            <text id="holyman" value="-20% к успеху применения агента “Детектив”."/>
+            <text id="dark_past" value="+20% к успеху применения агента “Детектив”."/>
+
+            <text id="restrained" value="-20% к успеху применения агента “Журналист”."/>
+            <text id="brawler" value="+20% к успеху применения агента “Журналист”."/>
+
+            <text id="believer" value="К персонажу возможно применить агента “Епископ”."/>
+            <text id="atheist" value="Применение агента “Епископ” невозможно."/>
+
+            <text id="unknown" value=""/>
+
+
+
+<text id="horses" value=""/>
+			<text id="yachts" value=""/>
+			<text id="houses" value=""/>
+			<text id="coins" value=""/>
+			<text id="cars" value=""/>
+			<text id="pictures" value=""/>
+			<text id="antiques" value=""/>
+			<text id="alco_tobacco" value=""/>
+			<text id="trophies" value=""/>
+			<text id="weapons" value=""/>
+        </descriptions>
+
+<coins_names>
+    <text id="trasher" value="Телохранитель"/>
+    <text id="courtesan" value="Куртизанка"/>
+    <text id="detective" value="Детектив"/>
+    <text id="journalist" value="Журналист"/>
+    <text id="fireman" value="Поджигатель"/>
+    <text id="killer" value="Киллер"/>
+    <text id="diplomat" value="Дипломат"/>
+    <text id="financier" value="Финансист"/>
+    <text id="bandit" value="Бандит"/>
+    <text id="congressman" value="Конгрессмен"/>
+    <text id="senator" value="Сенатор"/>
+    <text id="police_chief" value="Шеф полиции"/>
+    <text id="prosecutor" value="Прокурор"/>
+    <text id="treasurer" value="Казначей"/>
+    <text id="judge" value="Судья"/>
+    <text id="governor" value="Губернатор"/>
+</coins_names>
+
+<coins_descriptions>
+    <text id="trasher" value="Описание монеты телохранителя"/>
+    <text id="courtesan" value="Описание монеты куртизанки"/>
+    <text id="detective" value="Описание монеты детектива"/>
+    <text id="journalist" value="Описание монеты журналиста"/>
+    <text id="fireman" value="Описание монеты поджигателя"/>
+    <text id="killer" value="Описание монеты киллера"/>
+    <text id="diplomat" value="Описание монеты дипломата"/>
+    <text id="financier" value="Описание монеты финансиста"/>
+    <text id="bandit" value="Описание монеты бандита"/>
+    <text id="congressman" value="Описание монеты конгрессмена"/>
+    <text id="senator" value="Описание монеты сенатора"/>
+    <text id="police_chief" value="Описание монеты шефа полиции"/>
+    <text id="prosecutor" value="Описание монеты прокурора"/>
+    <text id="treasurer" value="Описание монеты казначея"/>
+    <text id="judge" value="Описание монеты судьи"/>
+    <text id="governor" value="Описание монеты губернатора"/>
+</coins_descriptions>
+
+<ambitions>
+    <text id="00_shares_bank_name" value="Владеть акциями банка"/>
+    <text id="00_shares_bank_description" value="Персонаж ищет акции компаний в штате определенного типа. Если ему их продать, можно заработать, или повысить его лояльность к себе."/>
+    <text id="01_shares_oil_production_name" value="Владеть акциями нефтедобычи" />
+    <text id="01_shares_oil_production_description" value="Персонаж ищет акции компаний в штате определенного типа. Если ему их продать, можно заработать, или повысить его лояльность к себе."/>
+    <text id="02_shares_transport_company_name" value="Владеть акциями транспортной компании"/>
+    <text id="02_shares_transport_company_description" value="Персонаж ищет акции компаний в штате определенного типа. Если ему их продать, можно заработать, или повысить его лояльность к себе."/>
+    <text id="03_shares_petroleum_refinery_name" value="Владеть акциями НПЗ" />
+    <text id="03_shares_petroleum_refinery_description" value="Персонаж ищет акции компаний в штате определенного типа. Если ему их продать, можно заработать, или повысить его лояльность к себе."/>
+    <text id="04_control_shares_pack_of_bank_name" value="Продать акции банка" />
+    <text id="04_control_shares_pack_of_bank_description" value="Персонаж готов избавиться от акций компании по рыночной цене. Поэтому, для этой сделки, можно иметь любое влияние."/>
+    <text id="05_control_shares_pack_of_oil_production_name" value="Продать акции нефтедобычи" />
+    <text id="05_control_shares_pack_of_oil_production_description"  value="Персонаж готов избавиться от акций компании по рыночной цене. Поэтому, для этой сделки, можно иметь любое влияние."/>
+    <text id="06_control_shares_pack_of_transport_company_name" value="Продать акции транспортной компании" />
+    <text id="06_control_shares_pack_of_transport_company_description" value="Персонаж готов избавиться от акций компании по рыночной цене. Поэтому, для этой сделки, можно иметь любое влияние."/>
+    <text id="07_control_shares_pack_of_petroleum_refinery_name" value="Продать акции НПЗ" />
+    <text id="07_control_shares_pack_of_petroleum_refinery_description" value="Персонаж готов избавиться от акций компании по рыночной цене. Поэтому, для этой сделки, можно иметь любое влияние."/>
+    <text id="08_finance_campaign_name" value="Финансировать избирательную кампания" />
+    <text id="08_finance_campaign_description" value="Заработайте влияние и лояльность, финансируя избирательную кампанию чиновника или политика."/>
+    <text id="09_found_bank_name" value="Название амибиции 9" />
+    <text id="09_found_bank_description" value="Описание амбиции 9"/>
+    <text id="10_found_oil_production_name" value="Название амибиции 10" />
+    <text id="10_found_oil_production_description" value="Описание амбиции 10"/>
+    <text id="11_add_to_collection_antiques_name" value="Купить антиквариат" />
+    <text id="11_add_to_collection_antiques_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="12_add_to_collection_weapons_name" value="Купить оружие" />
+    <text id="12_add_to_collection_weapons_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="13_add_to_collection_trophies_name" value="Купить трофей" />
+    <text id="13_add_to_collection_trophies_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="14_add_to_collection_pictures_name" value="Купить картину" />
+    <text id="14_add_to_collection_pictures_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="15_add_to_collection_horses_name" value="Купить лошадь" />
+    <text id="15_add_to_collection_horses_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="16_add_to_collection_cars_name" value="Купить автомобиль" />
+    <text id="16_add_to_collection_cars_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="17_add_to_collection_coins_name" value="Купить монету" />
+    <text id="17_add_to_collection_coins_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="18_add_to_collection_houses_name" value="Купить дом" />
+    <text id="18_add_to_collection_houses_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="19_add_to_collection_yachts_name" value="Купить яхту" />
+    <text id="19_add_to_collection_yachts_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="20_add_to_collection_alco_name" value="Купить алкоголь/табак" />
+    <text id="20_add_to_collection_alco_description" value="Выигрывайте аукционы, и продавайте предметы персонажам с этой амбицией. Можно не только хорошо заработать, но и повысить лояльность."/>
+    <text id="21_want_to_be_governor_name" value="Получить пост губернатора" />
+    <text id="21_want_to_be_governor_description" value="Потребуется щедрое финансирование предвыборной кампании персонажа, и есть риск того, что ставка не сыграет. Но если персонаж реализует с вашей помощью свои политические амбиции - вы получите лояльного политика или чиновника!"/>
+    <text id="22_want_to_be_treasurer_name" value="Получить пост казначея" />
+    <text id="22_want_to_be_treasurer_description" value="Потребуется щедрое финансирование предвыборной кампании персонажа, и есть риск того, что ставка не сыграет. Но если персонаж реализует с вашей помощью свои политические амбиции - вы получите лояльного политика или чиновника!"/>
+    <text id="23_want_to_be_judge_name" value="Получить пост судьи" />
+    <text id="23_want_to_be_judge_description" value="Потребуется щедрое финансирование предвыборной кампании персонажа, и есть риск того, что ставка не сыграет. Но если персонаж реализует с вашей помощью свои политические амбиции - вы получите лояльного политика или чиновника!"/>
+    <text id="24_want_to_be_prosecutor_name" value="Получить пост прокурора" />
+    <text id="24_want_to_be_prosecutor_description" value="Потребуется щедрое финансирование предвыборной кампании персонажа, и есть риск того, что ставка не сыграет. Но если персонаж реализует с вашей помощью свои политические амбиции - вы получите лояльного политика или чиновника!"/>
+    <text id="25_want_to_be_police_chief_name" value="Получить пост шефа полиции" />
+    <text id="25_want_to_be_police_chief_description" value="Потребуется щедрое финансирование предвыборной кампании персонажа, и есть риск того, что ставка не сыграет. Но если персонаж реализует с вашей помощью свои политические амбиции - вы получите лояльного политика или чиновника!"/>
+    <text id="26_want_to_be_congressman_name" value="Получить пост конгрессмена легислатуры" />
+    <text id="26_want_to_be_congressman_description" value="Потребуется щедрое финансирование предвыборной кампании персонажа, и есть риск того, что ставка не сыграет. Но если персонаж реализует с вашей помощью свои политические амбиции - вы получите лояльного политика или чиновника!"/>
+    <text id="27_want_to_be_senator_name" value="Получить пост сенатора легислатуры" />
+    <text id="27_want_to_be_senator_description" value="Потребуется щедрое финансирование предвыборной кампании персонажа, и есть риск того, что ставка не сыграет. Но если персонаж реализует с вашей помощью свои политические амбиции - вы получите лояльного политика или чиновника!"/>
+    <text id="28_kill_all_enemies_name" value="Название амибиции 28" />
+    <text id="28_kill_all_enemies_description" value="Описание амбиции 28"/>
+    <text id="29_buy_all_shares_name" value="Название амибиции 29" />
+    <text id="29_buy_all_shares_description" value="Описание амбиции 29"/>
+    <text id="30_add_new_friends_name" value="Название амибиции 30" />
+    <text id="30_add_new_friends_description" value="Описание амбиции 30"/>
+    <text id="31_found_petroleum_refinery_name" value="Название амибиции 31" />
+    <text id="31_found_petroleum_refinery_description" value="Описание амбиции 31"/>
+    <text id="32_found_transport_company_name" value="Название амибиции 32" />
+    <text id="32_found_transport_company_description" value="Описание амбиции 32"/>
+
+    <text id="33_sell_from_collection_antiques_name" value="Продать антиквариат" />
+    <text id="33_sell_from_collection_antiques_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="34_sell_from_collection_weapons_name" value="Продать оружие" />
+    <text id="34_sell_from_collection_weapons_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="35_sell_from_collection_trophies_name" value="Продать трофей" />
+    <text id="35_sell_from_collection_trophies_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="36_sell_from_collection_pictures_name" value="Продать картину" />
+    <text id="36_sell_from_collection_pictures_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="37_sell_from_collection_horses_name" value="Продать лошадь" />
+    <text id="37_sell_from_collection_horses_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="38_sell_from_collection_cars_name" value="Продать автомобиль" />
+    <text id="38_sell_from_collection_cars_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="39_sell_from_collection_coins_name" value="Продать монету" />
+    <text id="39_sell_from_collection_coins_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="40_sell_from_collection_houses_name" value="Продать дом" />
+    <text id="40_sell_from_collection_houses_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="41_sell_from_collection_yachts_name" value="Продать яхту" />
+    <text id="41_sell_from_collection_yachts_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+    <text id="42_sell_from_collection_alco_name" value="Продать алкоголь/табак" />
+    <text id="42_sell_from_collection_alco_description" value="Покупайте предметы у персонажей с этой амбицией. Можно не только получить предмет, но и повысить лояльность."/>
+
+<text id="43_become_an_director_name" value="Стать директором" />
+<text id="43_become_an_director_description" value="Помогите персонажу стать директором для реализации его амбиции."/>
+
+<text id="44_become_an_assistant_name" value="Стать помощником" />
+<text id="44_become_an_assistant_description" value="Сделайте персонажа помощником для реализации его амбиции."/>
+
+<text id="45_become_in_director_board_name" value="Попасть в совет директоров" />
+<text id="45_become_in_director_board_description" value="Место в совете директоров - это все, о чем мечтает персонаж. Помогите ему с его амбицией, и его лояльность к вам повысится."/>
+
+</ambitions>
+
+</persons_characters>

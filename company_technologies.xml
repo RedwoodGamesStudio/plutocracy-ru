@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE company_technologies [
+  <!ELEMENT company_technologies (#PCDATA)>
+]>
+
+<company_technologies>
+
+<technology_0>
+    <text id="name" value="Социальная программа" />
+    <text id="description" value="Описание" />
+</technology_0>
+
+<technology_1>
+    <text id="name" value="Мотивация" />
+    <text id="description" value="Мотивация рабочих напрямую влияет на их продуктивность." />
+</technology_1>
+
+<technology_2>
+    <text id="name" value="Условия труда" />
+    <text id="description" value="Душная вентиляция, тяжелый график, жесткие правила - все может повлиять на условия труда рабочих, и их текучку, а также, привести к забастовке." />
+</technology_2>
+
+<technology_3>
+    <text id="name" value="Безопасность" />
+    <text id="description" value="Соблюдение правил безопасности на предприятии, разработка норм и правил снижает аварийность на предприятии." />
+</technology_3>
+
+<technology_4>
+    <text id="name" value="Качество" />
+    <text id="description" value="Потребитель всегда смотрит на соотношение цены и качества. Чем оно выше - тем дороже будет продаваться товар." />
+</technology_4>
+
+<technology_5>
+    <text id="name" value="Гудвил" />
+    <text id="description" value="“Доброе имя” компании, репутация. Запятнать репутацию компании чревато падением спроса на ее товар и акции." />
+</technology_5>
+
+<technology_6>
+    <text id="name" value="Рекрутинг" />
+    <text id="description" value="Рекрутинг - найм персонала на предприятие. Эффективный рекрутинг позволяет нанимать рабочих на предприятие за меньшую зарплату." />
+</technology_6>
+
+<technology_7>
+    <text id="name" value="Транспортная логистика" />
+    <text id="description" value="Оптимизация путей доставки товара до клиентов влияет на потребность в услугах транспортных компаний." />
+</technology_7>
+
+<technology_8>
+    <text id="name" value="Инвестиционная привлекательность" />
+    <text id="description" value="Увеличивает максимальный размер выпуска акций и облигаций, а также, уменьшает ставку по облигациям, делая долговые бумаги более выгодными для компании." />
+</technology_8>
+
+<technology_9>
+    <text id="name" value="Качество переработки" />
+    <text id="description" value="Чем выше качество переработки, тем меньше сырья требуется закупать для переработки в конечный продукт." />
+</technology_9>
+
+<technology_10>
+    <text id="name" value="Обслуживание" />
+    <text id="description" value="" />
+</technology_10>
+
+<technology_11>
+    <text id="name" value="Автоматизация" />
+    <text id="description" value="Уровень технологического оснащения предприятия." />
+</technology_11>
+
+</company_technologies>

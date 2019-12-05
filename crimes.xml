@@ -1,0 +1,235 @@
+﻿<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE crimes [<!ELEMENT crimes (#PCDATA)>]>
+<crimes>
+        <popup>
+            <text id="hide_evidence_popup_header" value="Расследование по делу\n&quot;{crime_name}&quot;"/>
+            <text id="hide_evidence_popup_text" value="{style}От {nickname} поступило заявление в полицию. Детектив полиции взялся за дело, и есть риск {arrest_risk}%, что он найдет доказательства вашей вины и арестует вас."/>
+
+            <text id="hide_evidence_popup_1" value="Подкупить детектива"/>
+            <text id="hide_evidence_popup_1_hover" value="Цена вопроса:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Возможные последствия:&lt;br&gt;{positive_chance}%: Детектив согласится и закроет дело;&lt;br&gt;{negative_chance}%: Детектив откажется закрывать дело и не возьмет деньги."/>
+            <text id="hide_evidence_popup_1_disabled_hover" value=""/>
+
+            <text id="hide_evidence_popup_2" value="Уничтожить улики через шефа полиции"/>
+            <text id="hide_evidence_popup_2_hover" value="Цена вопроса:&lt;br&gt;%1"/>
+            <text id="hide_evidence_popup_2_disabled_hover" value=""/>
+
+            <text id="hide_evidence_popup_3" value="Ничего не предпринимать"/>
+            <text id="hide_evidence_popup_3_hover" value=""/>
+            <text id="hide_evidence_popup_3_disabled_hover" value=""/>
+
+            <text id="hide_evidence_popup_success_header" value="Дело закрыто"/>
+            <text id="hide_evidence_popup_success_text" value="Детектив полиции не смог найти доказательств вашей вины, а значит, больше можно не волноваться о последствиях!"/>
+
+            <text id="hide_evidence_popup_fail_header" value="Расследование продолжается"/>
+            <text id="hide_evidence_popup_fail_text" value="{styles}Шеф полиции {police_chief_name} отказался участвовать в этом грязном деле, несмотря на лояльное отношение, и хорошую сумму отступных... Возможно, стоит подумать о связях с прокурором или судьей, если детектив все таки передаст дело в суд..."/>
+
+
+
+            <text id="court_popup_header" value="Обвинение и суд"/>
+            <text id="court_popup_text" value="{styles}Детектив нашел доказательства вины, и теперь дело передано судье {judge_name}. Прокурор {prosecutor_name} будет представлять обвинение. Хорошо это или плохо - зависит от лояльности прокурора и судьи к вам."/>
+            <text id="court_popup_text_to_company" value="{styles}Прокурор {prosecutor_name} заинтересовался инцидентом в компании {company_name}. Дело передано судье {judge_name}. Хорошо это или плохо - зависит от лояльности прокурора и судьи к вам."/>
+
+            <text id="court_popup_1" value="Подкупить прокурора"/>
+            <text id="court_popup_1_hover" value="Цена вопроса:&lt;br&gt;%1"/>
+            <text id="court_popup_1_disabled_hover" value=""/>
+
+            <text id="court_popup_2" value="Подкупить судью"/>
+            <text id="court_popup_2_hover" value="Цена вопроса:&lt;br&gt;%1"/>
+            <text id="court_popup_2_disabled_hover" value=""/>
+
+            <text id="court_popup_3" value="Надеяться на удачу в суде"/>
+            <text id="court_popup_3_hover" value="Возможные последствия:\n{positive_chance}%: Оправдательный приговор;\n{negative_chance}%: Обвинительный приговор."/>
+            <text id="court_popup_3_disabled_hover" value=""/>
+
+            <text id="court_popup_success_header" value="Оправдательный приговор"/>
+            <text id="court_popup_success_text" value="Все закончилось благополучно, и судья вынес оправдательный приговор. Влияние не пострадала!"/>
+
+            <text id="court_popup_fail_header" value="Обвинение и суд"/>
+            <text id="court_popup_fail_text" value="Судья вынес обвинительный приговор! Ваша влияние будет уменьшено.."/>
+
+
+
+            <text id="jail_popup_header" value="Тюрьма"/>
+            <text id="jail_popup_text" value="Вынесен обвинительный приговор! А это значит, что впереди - черная полоса. Запрещены любые перемещения по США, и даже переговоры. Также, вашему влиянию нанесен серьезный ущерб: -{reputation}."/>
+            <text id="jail_popup_journalist_text" value="Вынесен обвинительный приговор! А это значит, что впереди - черная полоса."/>
+            <text id="jail_popup_killer_text" value="Вынесен обвинительный приговор! А это значит, что впереди - черная полоса."/>
+            <text id="jail_popup_1" value="Просить о помиловании губернатора"/>
+            <text id="jail_popup_1_hover" value="Цена вопроса:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Возможные последствия:&lt;br&gt;Штраф $ {penalty}&lt;br&gt;"/>
+            <text id="jail_popup_1_disabled_hover" value=""/>
+
+            <text id="jail_popup_2" value="Смириться с судьбой"/>
+            <text id="jail_popup_2_hover" value="Последствия:\nШтраф $ {penalty}\nОграничение свободы на {year} {year_name}."/>
+            <text id="jail_popup_2_journalist_hover" value="Последствия:\nШтраф $ {penalty}\nОграничение свободы агента на {prison_days} дней."/>
+            <text id="jail_popup_2_killer_hover" value="Последствия:\nШтраф $ {penalty}\nОграничение свободы агента на {prison_years} года."/>
+            <text id="jail_popup_2_disabled_hover" value=""/>
+
+            <text id="jail_popup_success_header" value="Помилование губернатора"/>
+            <text id="jail_popup_success_text" value="Губернатор не зря говорил про высокое доверие. Он не побоялся общественного мнения и подписал указ о помиловании."/>
+
+            <text id="jail_popup_fail_header" value="Тюрьма"/>
+            <text id="jail_popup_fail_text" value="Вам не удалось коррумпировать губернатора, поэтому придется отправиться в тюрьму"/>
+
+
+<text id="make_a_deal_popup_success_header" value="Заведение дела"/>
+<text id="make_a_deal_popup_success_text" value="{styles}Прокурор {prosecutor_name} согласился помочь и завел дело на {person_name}, используя имеющуюся компрометирующую информацию на персонажа. Судья {judge_name} примет решение о вине или не вине подсудимого."/>
+
+<text id="make_a_deal_popup_fail_header" value="Заведение дела"/>
+<text id="make_a_deal_popup_fail_text" value="{styles}Прокурор {prosecutor_name} отказался помочь в этом грязном деле, несмотря на высокую лояльность, и хорошие отступные. Он посчитал, что имеющегося компромата будет недостаточно, чтобы можно было довести дело до суда. А возможно, он просто испугался высоких связей {person_name}."/>
+
+<text id="make_a_deal_popup_1" value="Вынести обвинительный приговор"/>
+<text id="make_a_deal_popup_1_hover" value="Цена вопроса:&lt;br&gt;{hint}"/>
+<text id="make_a_deal_popup_1_disabled_hover" value=""/>
+
+<text id="make_a_deal_popup_2" value="Дождаться решения суда"/>
+<text id="make_a_deal_popup_2_hover" value="Возможные последствия:\n{positive_chance}%: Оправдательный приговор;\n{negative_chance}%: Обвинительный приговор."/>
+<text id="make_a_deal_popup_2_disabled_hover" value=""/>
+
+
+<text id="make_a_deal_popup_judge_success_header" value="Решение суда"/>
+<text id="make_a_deal_popup_judge_success_text" value="{styles}Судья приговорил {person_name} к {years_in_jail} {year_name} тюрьмы с конфискацией $ {money_penalty}. Это ограничит его действия, и нанесет урон его влиянию на {reputation_penalty}, испортив мнение каждого из его окружения на {loyality_penalty}."/>
+
+<text id="make_a_deal_popup_judge_fail_header" value="Решение суда"/>
+<text id="make_a_deal_popup_judge_fail_text" value="Судья был благосклонен к подсудимому, и не увидел достаточной вины, чтобы его в тюрьму. Возможно, он успел кого то подкупить. На этот раз он вышел сухим из воды."/>
+
+<text id="accept_law_popup_success_header" value="Ратификация закона"/>
+<text id="accept_law_popup_success_text" value="Закон успешно ратифицирован губернатором."/>
+
+<text id="accept_law_popup_fail_header" value="Ратификация закона"/>
+<text id="accept_law_popup_fail_text" value="Губернатору отказался ратифицировать закон."/>
+
+<text id="reject_law_popup_success_header" value="Наложение вето на закон"/>
+<text id="reject_law_popup_success_text" value="Закон успешно отклонен губернатором."/>
+
+<text id="reject_law_popup_fail_header" value="Наложение вето на закон"/>
+<text id="reject_law_popup_fail_text" value="Губернатору отказался отклонять закон."/>
+
+
+
+<text id="break_up_strike_popup_success_header" value="Разгон забастовки"/>
+<text id="break_up_strike_popup_success_text" value="Полиции пришлось применить силу и бастующие вернулись на свои рабочие места."/>
+
+<text id="break_up_strike_popup_fail_header" value="Разгон забастовки"/>
+<text id="break_up_strike_popup_fail_text" value="Мирная забастовка превратилась в стычку между полицией и митингующими. Полиции пришлось отступить."/>
+
+
+<text id="hide_accident_popup_success_header" value="Сокрытие аварии"/>
+<text id="hide_accident_popup_success_text" value="Прокурор использовал всю свою власть, чтобы не дать ход проверке условий труда в компании."/>
+
+<text id="hide_accident_popup_fail_header" value="Сокрытие аварии"/>
+<text id="hide_accident_popup_fail_text" value="Прокурор попытался закрыть дело, но общественность уже не остановить."/>
+
+<text id="contract_popup_success_header" value="Госконтракт"/>
+<text id="contract_popup_success_text" value="{styles}Губернатор {governor_name} согласен помочь в заключении сверх выгодного гос.контракта с вашей компании. Конкуренты будут шокированы этими условиями."/>
+
+<text id="contract_popup_fail_header" value="Госконтракт"/>
+<text id="contract_popup_fail_text" value="{styles}К сожалению, губернатор {governor_name} отказался помочь с заключением гос.контракта.Видимо, он недостаточно лоялен к вам, и боится испортить свое влияние, если поползут слухи."/>
+
+<text id="grant_popup_success_header" value="Субсидия от штата"/>
+<text id="grant_popup_success_text" value="{styles}Казначей {treasurer_name} согласен помочь в выделении субсидии вашей компании, остается только пару формальностей. Исходя из текущих отношений с казначеем, скидка при строительстве новых построек будет равна {discount}%."/>
+
+<text id="grant_popup_fail_header" value="Субсидия от штата"/>
+<text id="grant_popup_fail_text" value="{styles}К сожалению, казначей {treasurer_name} отказался помочь с оформлением субсидии из казны штата. Слишком рискованно для его карьеры. Возможно, следует попытаться на следующий квартал, поработав над его лояльностью."/>
+
+
+            <text id="freedom_popup_header" value="Свобода"/>
+            <text id="freedom_popup_text" value="Наконец-то свобода!"/>
+
+
+
+            <text id="politician_result_header_1" value="Политик отказался помогать"/>
+            <text id="politician_result_text_1" value="Дача взятки должностному лицу? Да вы что! Это же уголовное преступление!. Уходите с глаз долой, пока я вас не закрыл. А деньги-то оставьте. Мне еще детей кормить."/>
+            <text id="politician_result_header_2" value="Политик согласился помочь"/>
+            <text id="politician_result_text_2" value="Я согласен представлять ваши интересы в штата %1."/>
+
+
+
+            <text id="official_result_header_1" value="Чиновник отказался помогать"/>
+            <text id="official_result_text_1" value="Дача взятки должностному лицу? Да вы что! Это же уголовное преступление!. Уходите с глаз долой, пока я вас не закрыл. А деньги-то оставьте. Мне еще детей кормить."/>
+            <text id="official_result_header_2" value="Чиновник согласился помочь"/>
+            <text id="official_result_text_2" value="Я согласен представлять ваши интересы в штате %1."/>
+        </popup>
+
+<effects>
+    <text id="arrets_chance" value="Вероятность ареста"/>
+    <text id="money_penalty" value="Штраф"/>
+    <text id="jail_time_text" value="Время заключения"/>
+    <text id="jail_time_value" value="%1 кварталов"/>
+    <text id="reputation_change" value="Социальный эффект"/>
+</effects>
+
+<hints>
+    <text id="already_tried_to_corrupt" value="Попытаться подкупить чиновника можно только один раз!"/>
+    <text id="low_loyality" value="Повысьте лояльность с {nickname}!"/>
+    <text id="no_assistants" value="Нет нанятых помощников!"/>
+    <text id="make_a_deal" value="При наличии компромата, лояльный прокурор может легко состряпать дело на неугодного персонажа, и упрятать его за решетку на несколько лет...&lt;br&gt;&lt;br&gt;Цена вопроса:&lt;br&gt;%1"/>
+    <text id="receive_a_grant" value="При доверительных отношениях с казначеем, можно получить субсидию от казны штата на строительство новых построек в компании, размером до 50% от стоимости сметы.&lt;br&gt;&lt;br&gt;Цена вопроса:&lt;br&gt;%1"/>
+    <text id="corrupt_governor" value="Губернатор может заблокировать либо подписать закон, в случаи если конгрессмены не набрали %1 голосов - это может стоить ему влияния, но нет худа без добра!&lt;br&gt;&lt;br&gt;Цена вопроса&lt;br&gt;%2"/>
+    <text id="government_contract" value="Гос. контракт, на котором стоит подпись губернатора - большое конкурентное преимущество аффилированным компаниям, позволяющее продавать по завышенным ценам свой товар в течении года."/>
+    <text id="prosecutor_investigation" value="Когда прокурор свой, то любой компромат на должностное лицо становится мощным оружием, которое гарантированно приведет его к отставке, стоит только начать расследование."/>
+    <text id="police_chief_deal" value="Подконтрольный шеф полиции может сфабриковать любые улики, чтобы потом можно было легче шантажировать и манипулировать мишень."/>
+    <text id="treasurer_grant" value="Казначей может обеспечить компанию льготным финансированием, субсидируя кредитные ставки до 90% на целый год. Что еще нужно, для стремительного развития?"/>
+    <text id="hint" value="&lt;br&gt;&lt;br&gt;{hint}"/>
+</hints>
+
+<other>
+    <text id="year_single" value="год"/>
+    <text id="year_multiple" value="года"/>
+    <text id="year_genetive_single" value="году"/>
+    <text id="year_genetive_multiple" value="годам"/>
+    <text id="btn_ok" value="Ок"/>
+    <text id="not_enough_money" value="Недостаточно денег!"/>
+    <text id="not_enough_influence" value="Недостаточно влияния! Требуется %1"/>
+    <text id="accept_law" value="Ратифицировать"/>
+    <text id="reject_law" value="Отклонить"/>
+    <text id="government_contract_header" value="Государственный контракт"/>
+    <text id="government_contract_text" value="В штате может быть активным только один контракт для компании этого типа"/>
+    <text id="money_requirements" value="Сумма взятки: %1"/>
+    <text id="influence_requirements" value="Влияние: %1"/>
+    <text id="reputation_requirements" value="Влияние: %1"/>
+    <text id="chance_requirements" value="Шанс: %1"/>
+    <text id="corrupted_earlier" value="Чиновник ранее уже рассматривал это дело! Повторное использование возможно не ранее {date}."/>
+    <text id="no_authority_marks" value="Чиновник еще не дал согласия на поддержку!"/>
+    <text id="governor_disabled" value="Губернатор на больничном!"/>
+    <text id="prosecutor_disabled" value="Прокурор на больничном!"/>
+    <text id="judge_disabled" value="Судья на больничном!"/>
+    <text id="police_chief_disabled" value="Шеф полиции на больничном!"/>
+    <text id="veto_is_not_possible" value="В легислатуре набран критический процент голосов. Губернатор ничего не может изменить."/>
+    <text id="incorrect_law_stage" value="Текущий закон еще не попал на рассмотрение к губернатору!"/>
+    <text id="not_compromised" value="Нет компромата на %1!"/>
+    <text id="two_condition" value="Одно из двух должно выполняться:&lt;br&gt;{first_condition}&lt;br&gt;{second_condition}"/>
+    <text id="player_is_not_shareholder" value="Игрок не является акционером в компании {company_name}!"/>
+    <text id="player_is_not_shareholder" value="Игрок не является акционером в компании {company_name}!"/>
+    <text id="person_is_not_authority" value="Компромат может быть использован только на чиновников и политиков!"/>
+    <text id="skill_is_not_learned" value="Навык &quot;{skill_name}&quot; не изучен!"/>
+    <text id="not_enough_evidence" value="Недостаточно компромата для передачи дела прокурору!"/>
+    <text id="honest_person" value="Невозможно коррумпировать чиновника. {person_name} чтит‌ ‌свою‌ ‌репутацию‌ ‌дороже‌ ‌денег,‌ ‌и‌ ‌даже‌ ‌дружбы!"/>
+    <text id="dummy_not_possible" value="{person_name} никогда не станет вашей марионеткой!"/>
+    <text id="applies_to_yourself" value="Невозможно применить чиновника к самому себе!"/>
+
+
+<text id="governor_is_friendly" value="Губернатор - друг"/>
+<text id="governor_is_dummy" value="Губернатор - марионетка"/>
+
+<text id="prosecutor_is_friendly" value="Прокурор - друг"/>
+<text id="prosecutor_is_dummy" value="Прокурор - марионетка"/>
+
+<text id="police_chief_is_friendly" value="Шеф полиции - друг"/>
+<text id="police_chief_is_dummy" value="Шеф полиции - марионетка"/>
+
+<text id="treasurer_is_friendly" value="Казначей - друг"/>
+<text id="treasurer_is_dummy" value="Казначей - марионетка"/>
+
+</other>
+
+<crime_type>
+    <text id="extortion" value="Вымогательство"/>
+    <text id="robbery" value="Грабеж"/>
+    <text id="manipulation" value="Манипуляция"/>
+    <text id="persecution" value="Преследование"/>
+    <text id="murder" value="Покушение на жизнь"/>
+    <text id="slander" value="Клевета"/>
+    <text id="corruption" value="Коррупция"/>
+    <text id="burn" value="Поджог"/>
+    <text id="negligence" value="Халатность"/>
+</crime_type>
+</crimes>

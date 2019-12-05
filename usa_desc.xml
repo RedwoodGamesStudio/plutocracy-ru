@@ -1,0 +1,165 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE map_description [
+  <!ELEMENT map_description (#PCDATA)>
+]>
+
+<!-->Здесь весь текст из rip/maps/map_description.xml</!-->
+
+<map_description>
+	<unit>
+
+		<text id="ak_name" value="Аляска"/>
+		<text id="ak_desc" value="Очень холодное место"/>
+
+		<text id="al_name" value="Алабама"/>
+		<text id="al_desc" value="REPLACE_ME"/>
+
+		<text id="ar_name" value="Арканзас"/>
+		<text id="ar_desc" value="REPLACE_ME"/>
+
+		<text id="az_name" value="Аризона"/>
+		<text id="az_desc" value="REPLACE_ME"/>
+
+		<text id="ca_name" value="Калифорния"/>
+		<text id="ca_desc" value="REPLACE_ME"/>
+
+		<text id="co_name" value="Колорадо"/>
+		<text id="co_desc" value="REPLACE_ME"/>
+
+		<text id="ct_name" value="Коннектикут"/>
+		<text id="ct_desc" value="REPLACE_ME"/>
+
+		<text id="de_name" value="Делавэр"/>
+		<text id="de_desc" value="REPLACE_ME"/>
+
+		<text id="fl_name" value="Флорида"/>
+		<text id="fl_desc" value="REPLACE_ME"/>
+
+		<text id="ga_name" value="Джорджия"/>
+		<text id="ga_desc" value="REPLACE_ME"/>
+
+		<text id="hi_name" value="Гавайи"/>
+		<text id="hi_desc" value="REPLACE_ME"/>
+
+		<text id="ia_name" value="Айова"/>
+		<text id="ia_desc" value="REPLACE_ME"/>
+
+		<text id="id_name" value="Айдахо"/>
+		<text id="id_desc" value="REPLACE_ME"/>
+
+		<text id="il_name" value="Иллинойс"/>
+		<text id="il_desc" value="REPLACE_ME"/>
+
+		<text id="in_name" value="Индиана"/>
+		<text id="in_desc" value="REPLACE_ME"/>
+
+		<text id="ks_name" value="Канзас"/>
+		<text id="ks_desc" value="REPLACE_ME"/>
+
+		<text id="ky_name" value="Кентукки"/>
+		<text id="ky_desc" value="REPLACE_ME"/>
+
+		<text id="la_name" value="Луизиана"/>
+		<text id="la_desc" value="REPLACE_ME"/>
+
+		<text id="ma_name" value="Массачусетс"/>
+		<text id="ma_desc" value="REPLACE_ME"/>
+
+		<text id="md_name" value="Мэриленд"/>
+		<text id="md_desc" value="REPLACE_ME"/>
+
+		<text id="me_name" value="Мэйн"/>
+		<text id="me_desc" value="REPLACE_ME"/>
+
+		<text id="mi_name" value="Мичиган"/>
+		<text id="mi_desc" value="REPLACE_ME"/>
+
+		<text id="mn_name" value="Миннесота"/>
+		<text id="mn_desc" value="REPLACE_ME"/>
+
+		<text id="mo_name" value="Миссури"/>
+		<text id="mo_desc" value="REPLACE_ME"/>
+
+		<text id="ms_name" value="Миссиссипи"/>
+		<text id="ms_desc" value="REPLACE_ME"/>
+
+		<text id="mt_name" value="Монтана"/>
+		<text id="mt_desc" value="REPLACE_ME"/>
+
+		<text id="nc_name" value="Северная Каролина"/>
+		<text id="nc_desc" value="REPLACE_ME"/>
+
+		<text id="nd_name" value="Северная Дакота"/>
+		<text id="nd_desc" value="REPLACE_ME"/>
+
+		<text id="ne_name" value="Небраска"/>
+		<text id="ne_desc" value="REPLACE_ME"/>
+
+		<text id="nh_name" value="Нью-Гемпшир"/>
+		<text id="nh_desc" value="REPLACE_ME"/>
+
+		<text id="nj_name" value="Нью-Джерси"/>
+		<text id="nj_desc" value="REPLACE_ME"/>
+
+		<text id="nm_name" value="Нью-Мехико"/>
+		<text id="nm_desc" value="REPLACE_ME"/>
+
+		<text id="nv_name" value="Невада"/>
+		<text id="nv_desc" value="REPLACE_ME"/>
+
+		<text id="ny_name" value="Нью-Йорк"/>
+		<text id="ny_desc" value="REPLACE_ME"/>
+
+		<text id="oh_name" value="Огайо"/>
+		<text id="oh_desc" value="REPLACE_ME"/>
+
+		<text id="ok_name" value="Оклахома"/>
+		<text id="ok_desc" value="REPLACE_ME"/>
+
+		<text id="or_name" value="Орегон"/>
+		<text id="or_desc" value="REPLACE_ME"/>
+
+		<text id="pa_name" value="Пенсильвания"/>
+		<text id="pa_desc" value="REPLACE_ME"/>
+
+		<text id="ri_name" value="Род-Айленд"/>
+		<text id="ri_desc" value="REPLACE_ME"/>
+
+		<text id="sc_name" value="Южная Каролина"/>
+		<text id="sc_desc" value="REPLACE_ME"/>
+
+		<text id="sd_name" value="Южная Дакота"/>
+		<text id="sd_desc" value="REPLACE_ME"/>
+
+		<text id="tn_name" value="Теннесси"/>
+		<text id="tn_desc" value="REPLACE_ME"/>
+
+		<text id="tx_name" value="Техас"/>
+		<text id="tx_desc" value="REPLACE_ME"/>
+
+		<text id="ut_name" value="Юта"/>
+		<text id="ut_desc" value="REPLACE_ME"/>
+
+		<text id="va_name" value="Вирджиния"/>
+		<text id="va_desc" value="REPLACE_ME"/>
+
+		<text id="vt_name" value="Вермонт"/>
+		<text id="vt_desc" value="REPLACE_ME"/>
+
+		<text id="wa_name" value="Вашингтон"/>
+		<text id="wa_desc" value="REPLACE_ME"/>
+
+		<text id="wi_name" value="Висконсин"/>
+		<text id="wi_desc" value="REPLACE_ME"/>
+
+		<text id="wv_name" value="Западная Вирджиния"/>
+		<text id="wv_desc" value="REPLACE_ME"/>
+
+        <text id="wy_name" value="Вайоминг"/>
+        <text id="wy_desc" value="REPLACE_ME"/>
+
+        <text id="ot_name" value="Другие страны"/>
+        <text id="ot_desc" value="REPLACE_ME"/>
+
+	</unit>
+</map_description>

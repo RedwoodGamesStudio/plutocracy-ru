@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<!DOCTYPE company_settings [
+  <!ELEMENT company_settings (#PCDATA)>
+]>
+
+<company_settings>
+	<sector_1>
+		<text id="name" value="Добывающий сектор"/>
+		<text id="description" value="-"/>
+	</sector_1>
+
+	<sector_2>
+		<text id="name" value="Перераб. сектор"/>
+		<text id="description" value="-"/>
+	</sector_2>
+
+	<sector_3>
+		<text id="name" value="Услуги"/>
+		<text id="description" value="-"/>
+	</sector_3>
+
+	<sector_4>
+		<text id="name" value="Финансы"/>
+		<text id="description" value="-"/>
+	</sector_4>
+
+
+	<!-->Названия типов компаний</!-->
+	<type_0>
+		<text id="name" value="Нефтедобыча"/>
+		<text id="description" value="-"/>
+	</type_0>
+
+	<type_1>
+		<text id="name" value="Нефтепереработка"/>
+		<text id="description" value="-"/>
+	</type_1>
+
+	<type_2>
+		<text id="name" value="Транспортная"/>
+		<text id="description" value="-"/>
+	</type_2>
+
+	<type_3>
+		<text id="name" value="Банк"/>
+		<text id="description" value="-"/>
+	</type_3>
+	
+	<!-->Размер компании в зависимости от количества работников</!-->
+	<size_1>
+		<text id="name" value="Малое"/>
+	</size_1>
+
+	<size_2>
+		<text id="name" value="Среднее"/>
+	</size_2>
+
+	<size_3>
+		<text id="name" value="Крупное"/>
+	</size_3>	
+</company_settings>
